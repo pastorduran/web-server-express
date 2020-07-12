@@ -1,0 +1,18 @@
+{{> head }}
+
+
+    {{> navbar }}
+
+    <div class="jumbotron">
+        <h1 class="display-4">Hello, {{ capitalizar nombre }}!</h1>
+        <p class="lead">
+            Sitio html, css, utilizando handlebarsjs. En el menu About se redirige a la sección about.
+            Ambas páginas estan realizadas utilizando partials de hbs, lo que permite segmentar el head, footer y menu del sitio
+
+        </p>
+        <hr class="my-4">
+        <p>Se instala el paquete hbs de npm, se configura el hbs en el archivo server.js en la carpeta raíz del proyecto</p>
+        <a class="btn btn-primary btn-lg"  href="https://www.npmjs.com/package/hbs" role="button" target="blank">Instalar hbs</a>
+    </div>
+
+    {{> footer }}
